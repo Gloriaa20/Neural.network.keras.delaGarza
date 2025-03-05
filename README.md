@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 
 
-# if you have errors, follow the commands.
+# If you have errors, follow the commands.
 
 source /DIRECCION DE TU REPOSITORIO venv/bin/activate
 
