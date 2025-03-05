@@ -1,28 +1,33 @@
+
+
+# Ignore Python bytecode files
 __pycache__/
 *.pyc
 *.pyo
+
+# Ignore virtual environment directories
 .venv/
 .env/
 
-
-# Ignorar archivos de configuración de IDEs y editores
+# Ignore IDE and editor configuration files
 .vscode/
 .idea/
 *.sublime-workspace
 *.sublime-project
 
-# Ignorar archivos de dependencias de Node.js
+# Ignore Node.js dependencies
 node_modules/
 
-# Ignorar archivos temporales de sistemas operativos
+# Ignore system files
 .DS_Store       # macOS
 Thumbs.db       # Windows
 
-# Ignorar archivos de configuración de entorno
+# Ignore environment configuration files
 .env
 
-# Ignorar archivos de logs
+# Ignore log files
 *.log
 
-# Ignore venv virtual environment
+# Ignore virtual environment directory
 venv/
+
