@@ -1,3 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env/
+
+
 # Ignorar archivos de configuración de IDEs y editores
 .vscode/
 .idea/
