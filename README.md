@@ -1,132 +1,55 @@
+Neural Network with Keras
 
-# Activation Functions in Neural Networks
+📌 This repository demonstrates a simple implementation of a Neural Network using Keras and TensorFlow for solving a classification task. It uses the MNIST dataset, which consists of grayscale images of handwritten digits (0-9). The network is trained to classify these images into one of the 10 possible classes.
+Table of Contents
 
-This project implements various activation functions used in neural networks and generates graphs to visualize their behavior.
+    Project Overview
+    Installation
+    Dependencies
+    Usage
+    Code Explanation
+        Neural Network Architecture
+        Training
+        Evaluation
+    Results
+    Conclusion
 
+🚀 Project Overview
 
-📌 Implemented Functions
+This project implements a Convolutional Neural Network (CNN) to classify images from the MNIST dataset. It uses the Keras API, which runs on top of TensorFlow, to define and train the model. The model is evaluated on a separate test set, and the performance is measured using accuracy.
 
-Sigmoid: f(x) = 1 / (1 + e^(-x))
+The MNIST dataset contains 60,000 training images and 10,000 testing images of handwritten digits. Each image is 28x28 pixels, and the goal is to predict the digit (0-9) in each image.
 
-Tanh: f(x) = tanh(x)
+🖥️ Installation
+1. Clone the repository
+git clone https://github.com/your-username/neural-network-keras.git
+cd neural-network-keras
 
-ReLU (Rectified Linear Unit): f(x) = max(0, x)
+2. Create and activate a virtual environment (optional but recommended)
 
-Leaky ReLU: f(x) = x if x > 0, alpha * x if x <= 0
+For Linux/macOS:
+python3 -m venv venv
+source venv/bin/activate
 
-Softmax: f(x) = e^x / sum(e^x)
+For Windows:
+python -m venv venv
+.\venv\Scripts\activate
 
-ELU (Exponential Linear Unit): f(x) = x if x > 0, alpha * (e^x - 1) if x <= 0
+3. Install dependencies
 
-Swish: f(x) = x * sigmoid(beta * x)
-
-
-🚀 Requirements
-
-Make sure you have the following dependencies installed before running the code:
-pip install numpy matplotlib
-
-
-🖥️ Usage
-
-Save the code in a file named activations.py and run it with:
-python activations.py
-
-
-📊 Visualization
-
-The code will generate graphs for each activation function, showing their behavior over a range of values.
-
-
-🛠️ Author and Contribution
-
-Created to demonstrate activation functions in neural networks. Contributions and improvements are welcome! 🚀
-
-
-# Here’s how you can run the code you provided on your machine:
-
-1. Install Python 3.8.10
-
-- If you don't have Python installed yet, you can download it from the official website.
-
-- Make sure to check the option that says "Add Python to PATH" during installation (this will allow you to run python from the command line).
-
-
-2. Create a Virtual Environment (Optional but Recommended)
-
-- Creating a virtual environment is a good practice to manage dependencies in your project without affecting other Python installations. To do this:
-
-- Open a terminal or command prompt.
-
-- Navigate to the directory where you want to create your project.
-
-- Run the following command to create a virtual environment:
-  python -m venv venv
-
-This will create a folder named venv that contains a separate Python installation.
-
-Activate the virtual environment:
- On Windows: venv\Scripts\activate
-
- On macOS/Linux: source venv/bin/activate
-
- Once activated, you’ll see the environment name in your terminal prompt indicating that you're working in the virtual environment.
-
-
-3. Install the Required Libraries
-
-The code uses numpy and matplotlib. You need to install these libraries if you haven't already. Run the following command to install them (ensure you are inside your virtual environment if you created one):
-pip install numpy matplotlib
-
-
-4. Create the Python File with the Code
-
-Create a new file in your favorite text editor or IDE (e.g., Visual Studio Code, PyCharm, or even a basic text editor). Save the code in a file with the .py extension, for example, activation_functions.py.
-
-
-5. Run the Code
-
-Once you have the file with the code, you can run it as follows:
-
-- Open a terminal or command prompt.
-
-- Navigate to the directory where you saved the Python file. For example, if you saved it in a folder called activation_functions on your desktop, navigate to that folder:
-
-   On Windows: cd C:\Users\YourUserName\Desktop\activation_functions
-   On macOS/Linux: cd ~/Desktop/activation_functions
-
-- Run the Python file with: python activation_functions.py
-
-
-6. View the Results
-
-Once you run the code, three plots will be generated showing the activation functions Sigmoid, Tanh, and ReLU. The plots will appear one by one in a Matplotlib window.
-
-- Summary of Steps:
-   Install Python.
-   Create a virtual environment (optional).
-   Install the necessary libraries (numpy and matplotlib).
-   Create a .py file with the code.
-   Run the Python file using python file.py.
-
-After following these steps, you should be able to see the plots generated for the activation functions. 
+You can install the required dependencies using the requirements.txt file.
+pip install -r requirements.txt
 
 
 
 # if you have errors, follow the commands.
 
+source /DIRECCION DE TU REPOSITORIO venv/bin/activate
+
+python -m pip show numpy
 pip install numpy
-pip3 install numpy
 
-source env/bin/activate
-pip install matplotlib
-python -c "import matplotlib; print(matplotlib.__version__)"
-python functions.py
 
-which pip  
-pip install --upgrade pip
 
-=======
-# Activation.functions.delaGarza
-This repository contains various implementations of activation functions used in neural networks. Activation functions are a crucial component of neural networks as they introduce non-linearity, enabling the network to learn complex patterns in the data. 
-091ea335f5fe7a163a8a0922a38bc9fcd89318e3
+
+
