@@ -23,32 +23,39 @@ The MNIST dataset contains 60,000 training images and 10,000 testing images of h
 
 🖥️ Installation
 1. Clone the repository
-   - git clone https://github.com/your-username/neural-network-keras.git
-   - cd neural-network-keras
 
-2. Create and activate a virtual environment (optional but recommended)
+       git clone https://github.com/your-username/neural-network-keras.git
+
+       cd neural-network-keras
+
+3. Create and activate a virtual environment (optional but recommended)
 
 For Linux/macOS:
-   - python3 -m venv venv
-   - source venv/bin/activate
+
+    python3 -m venv venv
+    
+    source venv/bin/activate
 
 For Windows:
-   - python -m venv venv
-   - .\venv\Scripts\activate
+    
+    python -m venv venv
+    
+    .\venv\Scripts\activate
+    
 
 3. Install dependencies
 
 You can install the required dependencies using the requirements.txt file.
-   - pip install -r requirements.txt
 
+    pip install -r requirements.txt
 
 
 # If you have errors, follow the commands.
 
-  - source /DIRECCION DE TU REPOSITORIO venv/bin/activate
+    source /DIRECCION DE TU REPOSITORIO venv/bin/activate
 
-  - python -m pip show numpy
-  - pip install numpy
+    python -m pip show numpy
+    pip install numpy
 
 
 
