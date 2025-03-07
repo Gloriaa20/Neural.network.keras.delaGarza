@@ -1,6 +1,7 @@
 Neural Network with Keras
 
 📌 This repository demonstrates a simple implementation of a Neural Network using Keras and TensorFlow for solving a classification task. It uses the MNIST dataset, which consists of grayscale images of handwritten digits (0-9). The network is trained to classify these images into one of the 10 possible classes.
+
 Table of Contents
 
     Project Overview
@@ -22,8 +23,8 @@ The MNIST dataset contains 60,000 training images and 10,000 testing images of h
 
 🖥️ Installation
 1. Clone the repository
-git clone https://github.com/your-username/neural-network-keras.git
-cd neural-network-keras
+   - git clone https://github.com/your-username/neural-network-keras.git
+   - cd neural-network-keras
 
 2. Create and activate a virtual environment (optional but recommended)
 
