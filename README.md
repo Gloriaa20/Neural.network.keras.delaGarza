@@ -1,4 +1,4 @@
-Neural Network with Keras
+# Neural Network with Keras
 
 📌 This repository demonstrates a simple implementation of a Neural Network using Keras and TensorFlow for solving a classification task. It uses the MNIST dataset, which consists of grayscale images of handwritten digits (0-9). The network is trained to classify these images into one of the 10 possible classes.
 
